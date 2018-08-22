@@ -1,0 +1,55 @@
+p {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+h2 {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+img {
+    padding-left: 5%;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  
+  .header a {
+    float: left;
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px;
+    font-size: 18px; 
+    line-height: 25px;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: red;
+    color: white;
+  }
+  
+  /* Style the active/current link*/
+  .header a.active {
+    background-color: red;
+    color: white;
+  }
+  
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+  }

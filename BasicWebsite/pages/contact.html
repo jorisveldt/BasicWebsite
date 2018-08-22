@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title></title>
+</head>
+<body>
+       
+        <div class="header">
+                <a href="../index.html" class="logo">Joris Veldt</a>
+                    <div class="header-right">
+                        <a href="../index.html">Home</a>
+                        <a href="../pages/about.html">About</a>
+                        <a class="active" href="pages/contact.html">Contact</a>
+                    </div>
+            </div>
+
+            <form action="index.php" method="POST">
+                    <table>
+                      <tr>
+                          <td align="left">First Name *</td>
+                          <td align="left"><input type="text" name="firstname" required="required"></td>
+                      </tr>
+                      <tr>
+                          <td align="left">Last Name *</td>
+                          <td align="left"><input type="text" name="lastname"></td>
+                      </tr>
+                      <tr>
+                          <td align="left">Email Address *</td>
+                          <td align="left"><input type="text" name="email"></td>
+                      </tr>
+                       <tr>
+                          <td align="left">Telephone Number</td>
+                          <td align="left"><input type="text" name="number" required></td>
+                      </tr>
+                      <tr>
+                      <tr>
+                          <td align="left" valign="top">Comments *</td>
+                          <td align="left"><textarea id="comment" name="comment" style="height: 100px"></textarea></td>
+                      </tr>
+                      <tr>
+                          <td></td>
+                          <td align="left"><input type="submit" value="Submit" style="width: 100px"></td>
+                      </tr>
+                    </table>
+                  </form>
+
+</body>
+</html>
